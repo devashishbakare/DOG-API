@@ -1,3 +1,4 @@
+// css for content at middle
 $("body").css({
     "display" : "flex",
     "flex-direction" : "column",   
@@ -6,9 +7,12 @@ $("body").css({
     "margin" : "100px"
 
 });
+
+//Setting height and width
 $("#div-button").height("50px");
 $("#div-button").width("auto");
 
+// css for button
 $("#button").css({
     "height" : "45px",
     "width" : "auto",
@@ -19,6 +23,7 @@ $("#button").css({
     "box-shadow" : "5px 5px 5px black"
 });
 
+// css for Image rendering
 $("#image-div").css({
     "margin-top" : "30px",
     "height" : "auto",
