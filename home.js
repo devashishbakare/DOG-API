@@ -20,12 +20,14 @@ $("#button").css({
 });
 
 $("#image-div").css({
-    "border" : "2px solid black",
-    "display" : "block",
-    "margin-top" : "15px"
-})
-
-$("dogImage").css({
+    "margin-top" : "30px",
     "height" : "auto",
     "width" : "auto"
+})
+
+$("#dogImage").css({
+    "height" : "auto",
+    "width" : "auto",
+    "margin-top" : "30px",
+    "border" : "2px solid black"
 });
